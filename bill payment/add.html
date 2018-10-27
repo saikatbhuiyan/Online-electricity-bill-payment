@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Online Electricity Bill Payment | Add Data</title>
+</head>
+<style>
+
+body{
+     height: float;
+     width: float;
+     background: url('.jpg');
+     background-repeat:no-repeat;
+     background-color: #99ff99;
+	 background-size:cover;
+  }	
+  
+  .add{
+		position:absolute;
+		top:10%;
+		left:18%;
+		padding-left:10%;
+		padding-right:;
+        height:float;
+        width:50%;
+		background-color: #ffff;
+		border: 8px solid transparent;
+        border-radius: 6px;
+		font-size:30px;
+	}
+	
+	input[type="text"], [type="number"],[type="password"]{
+	width:170%;
+	height:30px;
+
+	}
+	
+</style>
+<body class ="php">
+
+
+<div class ="add">
+<a href="view_users.php">Back</a>
+<br/><br/>
+<form action="add.php" method="post" name="form1">
+<table width="35%" >
+<tr>
+<td >User Name</td>
+<td ><input  type="text" name="name" required></td>
+</tr>
+<tr>
+<td>User Email</td>
+<td><input type="text" name="email"required></td>
+</tr>
+<tr>
+<td>Meter No</td>
+<td><input type="number" name="meter"required></td>
+</tr>
+<tr>
+<td>NID No</td>
+<td><input type="number" name="nid_no"required></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="password" name="user_pass"required></td>
+</tr>
+<td></td>
+<td><input type="submit" name="Submit" value="Add Data"></td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>
